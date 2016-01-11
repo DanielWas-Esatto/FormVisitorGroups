@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="English" id="en">
+    <formvisitorgroups>
+      <criteria>
+        <submittedformcriterion>
+          <category>Episerver forms</category>
+          <displayname>Submitted form</displayname>
+          <description>Criterion that checks if the visitor has submitted a specific Form (cookie based)</description>
+          <!--<selectedform>Selected form</selectedform>-->
+        </submittedformcriterion>
+
+        <formvaluecriteria>
+          <category>Episerver forms</category>
+          <displayname>Submitted form value</displayname>
+          <description>Check for the value of a submitted form (within the current session)</description>
+          <!--<formfield>Form field</formfield>
+          <condition>Check condition</condition>
+          <value>Check condition</value>-->
+          <casesensitive>Check the value case sensitively</casesensitive>
+        </formvaluecriteria>
+        
+      </criteria>
+    </formvisitorgroups>
+    <enums>
+      <formvisitorgroups>
+        <enums>
+          <formvaluecondition>
+            <hasvalue>Has a value</hasvalue>
+            <doesnothaveavalue>Does not have a value</doesnothaveavalue>
+            <is>Is equal to</is>
+            <contains>Contains</contains>
+            <doesnotcontain>Does not contain</doesnotcontain>
+            <isnot>Is not equal to</isnot>
+          </formvaluecondition>
+          <cookieexistscondition>
+            <exists>Exists</exists>
+            <doesnotexist>Does not exist</doesnotexist>
+          </cookieexistscondition>
+        </enums>
+      </formvisitorgroups>
+    </enums>
+
+  </language>
+</languages>

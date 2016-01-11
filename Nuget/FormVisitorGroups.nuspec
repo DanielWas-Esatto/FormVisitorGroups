@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FormVisitorGroups</id>
+    <version>1.0.3</version>
+    <title>Visitor groups for Episerver forms</title>
+    <authors>David Knipe</authors>
+    <owners>David Knipe</owners>
+    <licenseUrl>https://github.com/davidknipe/FormVisitorGroups/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>http://www.david-tec.com/2015/12/visitor-groups-for-episerver-forms/</projectUrl>
+    <iconUrl>http://www.david-tec.com/global/media/nugeticons/FormVisitorGroups.png?v=1.1.0</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds a submitted form and submitted form value visitor group criteria</description>
+    <summary>Adds a submitted form and submitted form value visitor group criteria</summary>
+    <releaseNotes>v1.0.3 Initial release</releaseNotes>
+    <tags>EPiServer VisitorGroups Personalisation Forms FormVisitorGroups</tags>
+    <dependencies>
+      <dependency id="EPiServer.Forms" version="[0.1, 1.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\FormVisitorGroups\bin\Release\FormVisitorGroups.dll" target="lib\net452\FormVisitorGroups.dll" exclude="" />
+    <file src="..\FormVisitorGroups\bin\Release\FormVisitorGroups.pdb" target="lib\net452\FormVisitorGroups.pdb" exclude="" />
+    <file src="..\FormVisitorGroups\lang\FormVisitorGroups_EN.xml" target="Content\lang\" exclude="" />
+    <file src="..\FormVisitorGroups\Views\Shared\EditorTemplates\FormValueCriterionModel.ascx" target="Content\Views\Shared\EditorTemplates\" exclude="" />
+    <file src="..\FormVisitorGroups\Views\Shared\EditorTemplates\SubmittedFormModel.ascx" target="Content\Views\Shared\EditorTemplates\" exclude="" />
+  </files>
+</package>
